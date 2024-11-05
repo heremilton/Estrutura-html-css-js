@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprenda Java</title>
+    <link rel="stylesheet" href="./src/css/estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Guia de Programação em Java</h1>
+        <p>Aprenda os fundamentos de Java e descubra como essa linguagem poderosa funciona.</p>
+    </header>
+
+    <main>
+        <section id="intro">
+            <h2>O que é Java?</h2>
+            <p>Java é uma linguagem de programação orientada a objetos, amplamente utilizada em 
+
+desenvolvimento de software, aplicações web, Android, e muito mais.</p>
+        </section>
+
+        <section id="codigo">
+            <h2>Exemplo de Código Java</h2>
+            <pre><code id="codigo-java">
+public class olaMundo {
+    public static void main(String[] args) {
+        System.out.println("Ola, Mundo!");
+    }
+}
+            </code></pre>
+            <button onclick="copiarCodigo()">Copiar Código</button>
+        </section>
+
+        <section id="curiosidades">
+            <h2>Curiosidades sobre Java</h2>
+            <ul id="lista-curiosidades">
+                <li>Java foi criado por James Gosling na Sun Microsystems.</li>
+                <li>É uma das linguagens mais populares do mundo.</li>
+                <li>O lema de Java é "Write Once, Run Anywhere" (Escreva uma vez, execute em qualquer 
+
+lugar).</li>
+            </ul>
+            <button onclick="adicionarCuriosidade()">Adicionar Curiosidade</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Guia de Java. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
